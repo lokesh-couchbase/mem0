@@ -21,6 +21,9 @@ class LlmConfig(BaseModel):
             "azure_openai",
             "openai_structured",
             "azure_openai_structured",
+            "gemini",
+            "deepseek",
+            "xai",
         ):
             return v
         else:
